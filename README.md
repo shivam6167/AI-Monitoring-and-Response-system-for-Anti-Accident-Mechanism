@@ -1,6 +1,6 @@
 # AI-Monitoring-and-Response-system-for-Anti-Accident-Mechanism
 ![Main_gif](https://user-images.githubusercontent.com/123289647/222927510-b285f34f-2c23-4f30-b765-7f57dc04671c.gif)
-## Instructions 🗂️
+## Instructions 🗂
 You must complete each of the steps listed below in the exact same order as stated in order to run this project on your local system.
 1. Fork this repository using 
 2. Run this command to clone the repository 
@@ -8,7 +8,7 @@ You must complete each of the steps listed below in the exact same order as stat
 4. Activate the environment using the command 
 5. Install and import all the libraries
 
-## Project Description 🖊️
+## Project Description 🖊
 
 ### Overview:
 The AI Monitoring and Response System for Anti-Accident Mechanism is a revolutionary solution designed to promote safe driving practices and to prevent and encounter  accidents in challenging driving conditions, etc, especially in hilly areas. The model monitors driver's activity throughout the driving and analyses the gesture patterns to foster a safe and healthy driving experience and reduce risks. The system is specifically tailored to address the unique risks and hazards associated with driving in hilly regions.The system is built on a foundation of state-of-the-art deep learning algorithms that analyze drivers' facial expressions, eye movements, head postures, and driving patterns. The system can detect signs of driver distraction, fatigue, and other unsafe behaviors that can lead to accidents.
@@ -24,6 +24,4 @@ Our methodology for the AI-Monitoring-and-Response-system-for-Anti-Accident-Mech
 With the Ai Monitoring and Response system for Anti-Accident Mechanism, which is a super-efficient integration of Deep Learning with Artificial Intelligence. We aim to uplift the standards of living by procuring an efficient mechanism of saving lives with the help of anti-accident mechanism using Deep Learning Algorithms. According to NHAI, every 1 of 4 deaths are due to road accidents, this condition becomes serious in hilly areas which has contributed to 40 percent of it! We aim to craft a solution that monitors and respond based on drivers’ behaviour. We analyse the moments and gestures of the person and our model automatically predict happening of event, thus preventing it by alerting more efficiently.
 
 Beyond analysing the behaviour and creating an monitoring and responsive environment to prevent accidents, we also readdress in times of happening and dealing with consequences, though we try to prevent by alerting the driver with “beep” and notifying and suggesting with various suggestion from Ai like “Turning on the lights, Shifting the music”, etc. However, in instances of accidents, this mechanism sends prompt to Authorities and Family members with location so prompt and appropriate cure can be taken and millions of lives can be saved!
-Our USP is not only being cheap and effective but also the model presented is unique to any existing mechanism till date.  
-
-
+Our USP is not only being cheap and effective but also the model presented is unique to any existing mechanism till date.
