@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+Flask
+sklearn
+pandas
+numpy
+=======
+Flask
+sklearn
+pandas
+numpy
+>>>>>>> d061524e9c34624f79fc180572c55cf27ea3c46a
+matplotlib
+
+# requirements:
+# 1."To get good Accuracy Please have a good lighting condition"
+#2."Your eyes should be clearly visible to the camera and camera should be clear"
