@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>DeepGeeks</title>
+
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet"
+  />
+
+    <!-- CSS Files -->
+    
+    
+    <!--<link href="{{url_for('static',filename='css/aos.css')}}" rel="stylesheet" />-->
+    <link
+      href="{{url_for('static',filename='css/bootstrap.min.css')}}"
+      rel="stylesheet"
+    />
+    <link
+      href="{{url_for('static',filename='css/bootstrap-icons.css')}}"
+      rel="stylesheet"
+    />
+    <link href="{{url_for('static',filename='css\bootstrap.min.css')}}" rel="stylesheet" />
+    <link
+      href="{{url_for('static',filename='css/glightbox.min.css')}}"
+      rel="stylesheet"
+    />
+    <link href="{{url_for('static', filename='css\remixicon.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename='css\swiper-bundle.min.css')}}" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+
+  
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto"><a href="index.html">DeepGeeks</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li class="dropdown">
+            </li>
+
+            <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li> -->
+              <a class="getstarted scrollto" href="\start">Get Started</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h1>Better Solutions Using Artificial Intelligence for SafeDriving</h1>
+            <div class="d-flex justify-content-center justify-content-lg-start text">
+              <!-- <button >Start Camera</button> -->
+              <a  class="btn-get-started scrollto" id="get-started"  href="/start">Get Started</a>
+              <a
+                href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
+                class="glightbox btn-watch-video"
+                ><span class="glyphicon glyphicon-play"></span><span>Watch Video</span></a
+              >
+            </div>
+          </div>
+          <div
+            class="col-lg-6 order-1 order-lg-2 hero-img"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <img
+              src="{{url_for('static', filename='images\why-us.png')}}"
+              class="img-fluid animated"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= Clients Section ======= -->
+      <!-- End Cliens Section -->
+
+      
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>About Projects</h2>
+          </div>
+
+          <div class="row content">
+            <div class="col-lg-6">
+              <p>
+                With the Ai Monitoring and Response system for Anti-Accident Mechanism, which is a super-efficient integration of Deep Learning with Artificial Intelligence. We aim to uplift the standards of living by procuring an efficient mechanism of saving lives with the help of anti-accident mechanism using Deep Learning Algorithms.According to NHAI, every 1 of 4 deaths are due to road accidents, this condition becomes serious in hilly areas which has contributed to 40 percent of it! We aim to craft a solution that monitors and respond based on drivers’ behaviour.We analyse the moments and gestures of the person and our model automatically predict happening of event, thus preventing it by alerting more efficiently.
+              </p>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p>
+Beyond analysing the behaviour and creating an monitoring and responsive environment to prevent accidents, we also readdress in times of happening and dealing with consequences, though we try to prevent by alerting the driver with “beep” and notifying and suggesting with various suggestion from Ai like “Turning on the lights, Shifting the music”, etc. However, in instances of accidents, this mechanism sends prompt to Authorities and Family members with location so prompt and appropriate cure can be taken and millions of lives can be saved! Our USP is not only being cheap and effective but also the model presented is unique to any existing mechanism till date.
+              </p>
+              <a href="#" class="btn-learn-more">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Us Section -->
+
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Team</h2>
+            <p>
+              Our Team Members and There Role in this Particular Projects
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets\img\Rajveer.jpg"
+                    src="{{url_for('static', filename='ayrton_senna_movie_wallpaper_by_bashgfx-d4cm6x6.jpg')}}"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Rajveer Singh</h4>
+                  <span>Front-End and Model Integration</span>
+                  <p>
+                    Devloped the Front-End  and integrated the Deep-Learning model with frontend Using Flask.
+                  </p>
+                  <div class="social">
+
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <!-- <a href=""><i class="ri-facebook-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a> -->
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 mt-4 mt-lg-0"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets\img\Yuvraj.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Yuvraj Singh</h4>
+                  <span>AI - Engineering</span>
+                  <p>
+                    Devloped and Trained the model for  detection of drowsiness.
+                  </p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>  
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets\img\Shivam.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Shivam Pandey</h4>
+                  <span>Team Lead and AIML researcher</span>
+                  <p>
+                    Data Augmentation and Exploratory Data Analysis.
+                  </p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+              <div class="member d-flex align-items-start">
+                <div class="pic">
+                  <img
+                    src="assets\img\Sarthak.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Sarthak Perti</h4>
+                  <span>Data Analytics and Visulization</span>
+                  <p>
+                   Analyzing the data and visulizing the data.
+                  </p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+
+      
+
+      
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>
+              If you need Extra Information, Please Contact Us.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>NH-05, Ludhiana - Chandigarh State Hwy, Sahibzada Ajit Singh Nagar, Punjab 140413</p>
+                </div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.2051664616756!2d76.57204007570186!3d30.768820674566975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ffb140bd63e07%3A0x68591e334d17a988!2sChandigarh%20University!5e0!3m2!1sen!2sin!4v1680925926518!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="name">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="10"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    
+
+      
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    
+
+    
+
+    <!-- Vendor JS Files -->
+
+    <script type="text/javascript" src="{{url_for('static',filename='script\aos.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static',filename='script\bootstrap.bundle.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static',filename='script\glightbox.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static',filename='script\isotope.pkgd.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static',filename='script\swiper-bundle.min.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static',filename='script\noframework.waypoints.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static',filename='script\validate.js')}}"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
