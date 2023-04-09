@@ -3,9 +3,9 @@
 ## Instructions 🗂
 You must complete each of the steps listed below in the exact same order as stated in order to run this project on your local system.
 1. Fork this repository using 
-2. Run this command to clone the repository 
-3. Create a new virtual environment using the command 
-4. Activate the environment using the command 
+2. Run this command to clone the repository `https://github.com/shivam6167/AI-Monitoring-and-Response-system-for-Anti-Accident-Mechanism.git`
+3. Create a new virtual environment using the command `virtualenv env`
+4. Activate the environment using the command `env\Scripts\activate.bat`
 5. Install and import all the libraries
 
 ## Project Description 🖊
@@ -31,3 +31,4 @@ Our model has the potential to make a significant positive impact on traffic saf
 
 ## Code 🖥️
 Here is the link that you can use for accesing the code file 👉
+https://github.com/shivam6167/AI-Monitoring-and-Response-system-for-Anti-Accident-Mechanism.git
