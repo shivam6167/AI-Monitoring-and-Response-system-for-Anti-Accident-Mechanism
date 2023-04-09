@@ -25,3 +25,9 @@ With the Ai Monitoring and Response system for Anti-Accident Mechanism, which is
 
 Beyond analysing the behaviour and creating an monitoring and responsive environment to prevent accidents, we also readdress in times of happening and dealing with consequences, though we try to prevent by alerting the driver with “beep” and notifying and suggesting with various suggestion from Ai like “Turning on the lights, Shifting the music”, etc. However, in instances of accidents, this mechanism sends prompt to Authorities and Family members with location so prompt and appropriate cure can be taken and millions of lives can be saved!
 Our USP is not only being cheap and effective but also the model presented is unique to any existing mechanism till date.
+
+### Potential Impact:
+Our model has the potential to make a significant positive impact on traffic safety by helping to prevent accidents caused by human error such as distracted or drowsy driving. By constantly monitoring the road and surroundings and making more accurate decisions, the technology could potentially reduce the number of fatalities and injuries on the roadways, improving the overall quality of life for citizens. Automobile makers and transportation providers could also benefit from implementing the technology by improving their products and services, increasing customer satisfaction and safety ratings, and gaining a competitive edge in the market. Our model has the potential to contribute to a safer, more efficient, and stress-free driving experience for everyone.
+
+## Code 🖥️
+Here is the link that you can use for accesing the code file 👉
