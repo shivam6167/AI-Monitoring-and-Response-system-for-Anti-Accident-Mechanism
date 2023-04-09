@@ -35,3 +35,6 @@ https://github.com/shivam6167/AI-Monitoring-and-Response-system-for-Anti-Acciden
 
 ## Youtube video link ( Demo video )
 Here is the link 👉 https://youtu.be/v_JFj6vRCnc
+
+## Model file Google drive link
+Here is the link 👉 https://drive.google.com/drive/u/0/folders/10QtkedmhOD-FQT0QVMWB6hxhy6sZ6fuN
