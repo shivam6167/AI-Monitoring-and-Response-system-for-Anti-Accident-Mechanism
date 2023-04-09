@@ -32,3 +32,6 @@ Our model has the potential to make a significant positive impact on traffic saf
 ## Code 🖥️
 Here is the link that you can use for accesing the code file 👉
 https://github.com/shivam6167/AI-Monitoring-and-Response-system-for-Anti-Accident-Mechanism.git
+
+## Youtube video link ( Demo video )
+Here is the link 👉 https://youtu.be/v_JFj6vRCnc
